@@ -1,13 +1,13 @@
 name: first workflow
 on:
   push:
-    jobs:
-      steps:
-        - name: first
-          run: echo "welcome to github actions"
-
-        - name: second
-          run: echo "this is my first workflow"
-
-        - name: third
-          run: echo "learning ci with github actions"
+jobs:
+ print:
+  runs-on: ubuntu-latest
+  steps:  
+    - name: first
+      run: echo "welcome to github actions"
+    - name: second
+      run: echo "this is my first workflow"
+    - name: third
+      run: echo "learning ci with github actions"
