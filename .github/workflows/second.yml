@@ -4,10 +4,10 @@ on:
     jobs:
       steps:
         - name: first
-         run: echo"welcome to github actions"
+          run: echo "welcome to github actions"
 
         - name: second
-         run: echo"this is my first workflow"
+          run: echo "this is my first workflow"
 
         - name: third
-         run: echo"learning ci with github actions"
+          run: echo "learning ci with github actions"
